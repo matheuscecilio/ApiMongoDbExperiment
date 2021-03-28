@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiMongoDbExperiment.API", "ApiMongoDbExperiment.API\ApiMongoDbExperiment.API.csproj", "{37EE3327-A448-4BD6-9B49-3E3661422C3C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{641FBCA0-6DB1-4013-B7B7-2CDEDABB6944}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37EE3327-A448-4BD6-9B49-3E3661422C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EE3327-A448-4BD6-9B49-3E3661422C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EE3327-A448-4BD6-9B49-3E3661422C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EE3327-A448-4BD6-9B49-3E3661422C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641FBCA0-6DB1-4013-B7B7-2CDEDABB6944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641FBCA0-6DB1-4013-B7B7-2CDEDABB6944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641FBCA0-6DB1-4013-B7B7-2CDEDABB6944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641FBCA0-6DB1-4013-B7B7-2CDEDABB6944}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99E6547F-2BB6-40BD-9CD7-51324957470B}
+	EndGlobalSection
+EndGlobal
