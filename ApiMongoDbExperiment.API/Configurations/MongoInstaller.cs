@@ -22,8 +22,8 @@ namespace ApiMongoDbExperiment.API.Configurations
                 config.Database = database;
             });
 
-            services.AddSingleton<MongoContext>();
-            services.AddSingleton<ITeamRepository, TeamRepository>();
+            services.AddScoped<MongoContext>();
+            services.AddScoped<ITeamRepository, TeamRepository>();
         }
     }
 }
